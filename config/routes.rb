@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  resources :blogs do
-    resources :comments
+  resources :blogs, only: [] do
+    resources :comments, except: [:destroy, :edit, :update]
   end
 
   root 'blog#index'
