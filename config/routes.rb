@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  resource :blogs do
+    resources :comments
+  end
+
   root 'blog#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
