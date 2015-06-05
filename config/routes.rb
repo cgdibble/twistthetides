@@ -4,7 +4,8 @@ Rails.application.routes.draw do
     resources :comments, except: [:destroy, :edit, :update]
   end
 
-  root 'blog#index'
+  # root 'blog#index'
+  root 'application'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
