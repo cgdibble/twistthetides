@@ -15,4 +15,8 @@
 //= angular-rails-templates
 //= require jquery
 //= require jquery_ujs
-//= require_tree ../templates
+
+//= require turbolinks
+//= require_tree .
+//= require angular/angular.min.js
+
