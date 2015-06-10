@@ -1,3 +1,7 @@
 (function() {
-  var twistthetides = angular.module('twistthetides', []);
+  var app = angular.module('twistthetides', []);
+
+  app.controller("BlogController", function() {
+
+  });
 })();
