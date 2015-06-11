@@ -2,7 +2,8 @@
   var app = angular.module('twistthetides', []);
 
   app.controller("BlogController", ["$scope", "$http", "$routeParams", "$location","ngDialog"], function() {
-
+  	// ping Rails endpoint to get blogs and display them approprietly
+  		// have a button/spot they can click that will open up the comments on the blog post if there are any.
   });
 })();
 
@@ -16,3 +17,4 @@
 				// - title ??? (currently in the migration)
 				// - Body
 				// - date + time posted
+
