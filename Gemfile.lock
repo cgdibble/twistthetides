@@ -113,10 +113,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-=======
-  angular-rails-templates
->>>>>>> master
   bower-rails
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
