@@ -14,6 +14,8 @@
 ActiveRecord::Schema.define(version: 20150602055316) do
 
   create_table "blogs", force: true do |t|
+    t.text     "title"
+    t.string   "file_path"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
