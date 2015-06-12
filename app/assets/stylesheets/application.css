@@ -12,4 +12,6 @@
  *
  *this includes bootstrap and its awesomeness in the project
  *= require bootstrap/dist/css/bootstrap
+ *= require_self
+ *= require_tree
  */
