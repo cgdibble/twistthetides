@@ -1,15 +1,17 @@
 {
-  "lib": {
-    "name": "bower-rails generated lib assets",
-    "dependencies": {
-      "bootstrap" : "latest",
-      "angular"  : "latest",
-      "angular-route"  : "latest"
-    }
-  },
-  "vendor": {
-    "name": "bower-rails generated vendor assets",
-    "dependencies": {
-    }
-  }
+  "name": "twistthetides",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cgdibble/twistthetides",
+  "authors": [
+    "cgdibble <cgdibble@gmail.com>"
+  ],
+  "description": "An Ecologist's Blog",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
